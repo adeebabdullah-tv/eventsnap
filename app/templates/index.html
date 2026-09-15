@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventSnap</title>
+
+```
+<link rel="stylesheet" href="/static/style.css">
+```
+
+</head>
+
+<body>
+
+```
+<main class="container">
+
+    <h1>📸 EventSnap</h1>
+
+    <p class="subtitle">
+        Turn event posters into calendar events.
+    </p>
+
+    <form id="upload-form">
+
+        <label for="image">
+            Upload an event poster
+        </label>
+
+        <input
+            type="file"
+            id="image"
+            name="image"
+            accept="image/*"
+            required
+        >
+
+        <button type="submit">
+            Extract Event
+        </button>
+
+    </form>
+
+    <div id="status"></div>
+
+    <section id="result" class="result hidden">
+
+        <h2>Extracted Event</h2>
+
+        <label>Title</label>
+        <input id="title">
+
+        <label>Date</label>
+        <input id="date" type="date">
+
+        <label>Start Time</label>
+        <input id="start-time" type="time">
+
+        <label>End Time</label>
+        <input id="end-time" type="time">
+
+        <label>Location</label>
+        <input id="location">
+
+        <label>Organizer</label>
+        <input id="organizer">
+
+        <label>Description</label>
+        <textarea id="description"></textarea>
+
+        <button id="calendar-button">
+            📅 Add to Google Calendar
+        </button>
+
+    </section>
+
+</main>
+
+<script src="/static/script.js"></script>
+```
+
+</body>
+</html>

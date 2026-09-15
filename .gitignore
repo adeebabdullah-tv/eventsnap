@@ -216,3 +216,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+credentials.json
+token.json
+optimized_test.jpg
+test_screenshot.png
