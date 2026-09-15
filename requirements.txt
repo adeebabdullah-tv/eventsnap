@@ -1,0 +1,17 @@
+fastapi==0.141.1
+uvicorn==0.53.0
+python-multipart==0.0.32
+
+pydantic==2.13.5
+python-dotenv==1.2.3
+python-dateutil==2.9.0.post0
+
+google-genai==2.23.0
+
+pillow==12.3.0
+pytesseract==0.3.13
+
+google-api-python-client==2.200.0
+google-auth==2.58.0
+google-auth-httplib2==0.4.2
+google-auth-oauthlib==1.4.1
